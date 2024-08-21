@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyEats | Recipe</title>
+    <link rel="stylesheet" href="recipe.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="img/logo-image.png" alt="EasyEats Logo"
+        /></a>
+        <a href="index.html"><h1>EasyEats</h1></a>
+      </div>
+      <div class="search-bar">
+        <input
+          type="search"
+          name="recipe-search"
+          placeholder="Search for recipes..."
+        />
+      </div>
+      <div class="nav-links">
+        <a href="my-recipes.html">My Recipes</a>
+        <a href="profile.html"
+          ><img src="img/profile-icon.png" alt="Profile Icon"
+        /></a>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="ingredients">
+        <h2>Ingredients</h2>
+        <ul id="ingredients-list"></ul>
+      </section>
+      <section class="recipe-details">
+        <h2 id="recipe-name"></h2>
+        <img id="recipe-image" src="" alt="Recipe Image" />
+        <p id="description"></p>
+        <h3>Preparation Steps</h3>
+        <ol id="steps-list"></ol>
+        <div class="action-buttons">
+          <a href="edit-recipe.html" class="edit-button edit-recipe-link"
+            >Edit Recipe</a
+          >
+          <button class="delete-button">Delete Recipe</button>
+        </div>
+      </section>
+      <section class="recipe-info">
+        <h2>Recipe Information</h2>
+        <p id="prep-time"></p>
+        <h3>Cooking Skills</h3>
+        <p id="difficulty"></p>
+        <h3>Dietary Preferences</h3>
+        <ul id="dietary-preferences-list"></ul>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="recipe.js"></script>
+  </body>
+</html>

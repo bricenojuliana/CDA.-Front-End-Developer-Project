@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyEats | Search Results</title>
+    <link rel="stylesheet" href="search2.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="img/logo-image.png" alt="EasyEats Logo"
+        /></a>
+        <a href="index.html"><h1>EasyEats</h1></a>
+      </div>
+      <div class="search-bar">
+        <input
+          type="search"
+          name="recipe-search"
+          placeholder="Search for recipes..."
+        />
+      </div>
+      <div class="nav-links">
+        <a href="my-recipes.html">My Recipes</a>
+        <a href="profile.html"
+          ><img src="img/profile-icon.png" alt="Profile Icon"
+        /></a>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="filters">
+        <div class="filters-header">
+          <h2>Filters</h2>
+        </div>
+        <div class="filter-group">
+          <h3>Cooking Skills</h3>
+          <ul>
+            <li>
+              <img src="img/grey-fork.png" alt="Fork Icon" />
+              <p>Beginner</p>
+            </li>
+            <li>
+              <img src="img/grey-fork.png" alt="Fork Icon" />
+              <p>Intermediate</p>
+            </li>
+            <li>
+              <img src="img/grey-fork.png" alt="Fork Icon" />
+              <p>Advanced</p>
+            </li>
+          </ul>
+        </div>
+        <div class="filter-group">
+          <h3>Dietary Preferences</h3>
+          <input type="search" placeholder="Search dietary preferences..." />
+          <ul>
+            <li>Vegetarian</li>
+            <li>Vegan</li>
+            <li>Gluten-Free</li>
+            <li>Keto</li>
+          </ul>
+        </div>
+        <div class="filter-group">
+          <h3>Ingredients</h3>
+          <input type="search" placeholder="Search ingredients..." />
+          <ul>
+            <li>Chicken</li>
+            <li>Beef</li>
+            <li>Tomato</li>
+            <li>Cheese</li>
+          </ul>
+        </div>
+      </section>
+      <main>
+        <section id="recipe-list" class="recipes">
+          <h2>Recipes</h2>
+          <div id="recipes-container"></div>
+        </section>
+      </main>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 EasyEats. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="models.js" type="module"></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyEats | Edit Recipe</title>
+    <link rel="stylesheet" href="recipe.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="edit-recipe.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="img/logo-image.png" alt="EasyEats Logo"
+        /></a>
+        <a href="index.html"><h1>EasyEats</h1></a>
+      </div>
+      <div class="search-bar">
+        <input
+          type="search"
+          name="recipe-search"
+          placeholder="Search for recipes..."
+        />
+      </div>
+      <div class="nav-links">
+        <a href="my-recipes.html">My Recipes</a>
+        <a href="profile.html"
+          ><img src="img/profile-icon.png" alt="Profile Icon"
+        /></a>
+      </div>
+    </header>
+
+    <main class="content">
+      <section>
+        <h1>Edit Recipe</h1>
+        <form id="edit-recipe-form">
+          <div class="form-group">
+            <label for="recipe-name">Recipe Name</label>
+            <input type="text" id="recipe-name" name="recipe-name" />
+          </div>
+          <div class="form-group">
+            <label for="recipe-description">Description</label>
+            <textarea
+              id="recipe-description"
+              name="recipe-description"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="recipe-image-url">Image URL</label>
+            <input type="text" id="recipe-image" name="recipe-image-url" />
+          </div>
+          <div class="form-group">
+            <label for="recipe-ingredients">Ingredients</label>
+            <textarea
+              id="recipe-ingredients"
+              name="recipe-ingredients"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="steps-list">Steps</label>
+            <textarea id="recipe-steps" name="recipe-steps"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="prep-time">Prep Time</label>
+            <input type="text" id="prep-time" name="prep-time" />
+          </div>
+          <div class="form-group">
+            <label for="cooking-skill">Cooking Skill</label>
+            <input type="text" id="cooking-skill" name="cooking-skill" />
+          </div>
+          <div class="form-group">
+            <label for="dietary-preferences">Dietary Preferences</label>
+            <input
+              type="text"
+              id="dietary-preferences"
+              name="dietary-preferences"
+            />
+          </div>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="editRecipe.js"></script>
+          <button type="submit">Save Changes</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

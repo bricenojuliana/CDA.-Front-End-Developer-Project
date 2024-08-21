@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyEats | Search Results</title>
+    <link rel="stylesheet" href="myRecipes.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="img/logo-image.png" alt="EasyEats Logo"
+        /></a>
+        <a href="index.html"><h1>EasyEats</h1></a>
+      </div>
+      <div class="search-bar">
+        <input
+          type="search"
+          name="recipe-search"
+          placeholder="Search for recipes..."
+        />
+      </div>
+      <div class="nav-links">
+        <a href="my-recipes.html">My Recipes</a>
+        <a href="profile.html"
+          ><img src="img/profile-icon.png" alt="Profile Icon"
+        /></a>
+      </div>
+    </header>
+
+    <main class="content">
+      <main>
+        <section id="recipe-list" class="recipes">
+          <h2>Recipes</h2>
+          <div id="recipes-container"></div>
+        </section>
+      </main>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 EasyEats. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="models.js" type="module"></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,388 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ffffff;
+  color: #097d4c;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 10px;
+}
+
+.search-bar input[type="search"] {
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.search-bar input[type="search"]::placeholder {
+  color: #b0b0b0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-links img {
+  max-width: 24px;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+}
+
+.ingredients {
+  flex: 1;
+  background-color: #fff9c4; /* Light yellow background */
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.ingredients h2 {
+  color: #097d4c;
+}
+
+.ingredients ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredients li {
+  margin-bottom: 10px;
+}
+
+.recipe-details {
+  flex: 2;
+  padding: 20px;
+}
+
+.recipe-details h2 {
+  color: #097d4c;
+}
+
+.recipe-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-details .description {
+  margin-bottom: 20px;
+}
+
+.recipe-details h3 {
+  color: #097d4c;
+  margin-bottom: 10px;
+}
+
+.recipe-details ol {
+  padding-left: 20px;
+}
+
+.recipe-details ol li {
+  margin-bottom: 10px;
+}
+
+.recipe-info {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+}
+
+.recipe-info h2 {
+  color: #097d4c;
+  margin-bottom: 20px;
+}
+
+.recipe-info p {
+  margin-bottom: 10px;
+}
+
+.recipe-info h3 {
+  color: #097d4c;
+  margin-bottom: 10px;
+}
+
+.recipe-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.recipe-info li img {
+  height: 20px; /* Small icon size */
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+}
+
+.ingredients {
+  flex: 1;
+  background-color: #f1ead1; /* Light yellow background */
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.ingredients h2 {
+  color: #097d4c;
+}
+
+.ingredients ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredients li {
+  margin-bottom: 10px;
+}
+
+.recipe-details {
+  flex: 2;
+  padding: 20px;
+}
+
+.recipe-details h2 {
+  color: #097d4c;
+}
+
+.recipe-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-details .description {
+  margin-bottom: 20px;
+}
+
+.recipe-details h3 {
+  color: #097d4c;
+  margin-bottom: 10px;
+}
+
+.recipe-details ol {
+  padding-left: 20px;
+}
+
+.recipe-details ol li {
+  margin-bottom: 10px;
+}
+
+.recipe-info {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+}
+
+.recipe-info h2 {
+  color: #097d4c;
+  margin-bottom: 20px;
+}
+
+.recipe-info p {
+  margin-bottom: 10px;
+}
+
+.recipe-info h3 {
+  color: #097d4c;
+  margin-bottom: 10px;
+}
+
+.recipe-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.recipe-info li img {
+  height: 20px; /* Small icon size */
+  margin-right: 10px;
+}
+
+.edit-recipe {
+  flex: 1;
+  padding: 20px;
+}
+
+.edit-recipe h2 {
+  color: #097d4c;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #097d4c;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"],
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+button[type="submit"],
+.edit-button {
+  background-color: #097d4c;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+.edit-button:hover {
+  background-color: #065c36;
+}
+
+/* Add these styles to the existing recipe.css */
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.edit-button {
+  display: inline-block;
+  background-color: #097d4c;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.edit-button:hover {
+  background-color: #065c36;
+}
+
+.delete-button {
+  display: inline-block;
+  background-color: #d9534f;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c9302c;
+}
+/* Add these styles to the existing recipe.css */
+
+.edit-recipe {
+  flex: 1;
+  padding: 20px;
+}
+
+.edit-recipe h2 {
+  color: #097d4c;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #097d4c;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"],
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+button[type="submit"] {
+  background-color: #097d4c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #065c36;
+}
